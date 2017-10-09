@@ -14,7 +14,6 @@
     <base href="<?=URL::ASSET('');?>">
     <meta charset="utf-8">
 
-
     <title>虎牙直播-中国领先的互动直播平台</title>
 
     <meta name="Keywords" content="lol直播,英雄联盟直播,dota2直播,dnf直播,cf直播,游戏直播,赛事直播,YY直播,美女直播,户外直播,视频直播,虎牙TV,虎牙直播,EDG"/>
@@ -279,8 +278,8 @@
 
                         <div class="un-login-btn">
 
-                            <a href="http://www.zhibo.com/show/login">登录</a>
-                            <i>|</i>
+                            <a href="http://47.94.108.20/Connect2.1/example/">qq第三方登录</a>
+                            <i>|</i><a href="http://127.0.0.1/ff/laravel/laravel54/public/show/login">本站登录</a>
                             <a class="clickstat" id="nav-regiest" href="#" eid="click/navi/login" eid_desc="点击/导航/注册">注册</a>
                         </div>
 
