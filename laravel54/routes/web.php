@@ -28,3 +28,7 @@ route::any('show/login','ShowController@login');
 
 
 route::any('types/index','TypesController@index');
+route::any('types/del','TypesController@del');
+route::any('types/sets','TypesController@sets');
+route::any('types/add_upd','TypesController@add_upd');
+route::any('types/add','TypesController@add');

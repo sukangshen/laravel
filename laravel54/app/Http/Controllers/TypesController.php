@@ -12,6 +12,15 @@ class TypesController extends Controller
         return view("types/index",['data'=>$sql]);
 	}
 
+	public function add()
+	{
+		$class_name=$_POST['class_name'];  
+        $class_addtime=$_POST['class_addtime'];  
+        $clas_id=$_POST['clas_id']; 
+        // print_r($sql);die;
+        return view("types/index");
+	}
+
 
 	  public function del(){
         $id=$_GET['clas_id'];
