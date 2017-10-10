@@ -123,7 +123,7 @@
                 <div class="hy-nav-right nav-user success-login" style="display: block;">
                     <a class="nav-user-title" href="http://i.huya.com/" target="_blank">
                         <img id="login-userAvatar" src="//huyaimg.msstatic.com/avatar/1036/c9/81b3c8628d849cef72a0a91e26acbf_180_135.jpg?0" alt="头像">
-                        <span id="login-username" title="吃嘛嘛香">吃嘛嘛香</span>
+                        <span id="login-username" title="吃嘛嘛香"><?php echo $_SESSION['user']->username;?></span>
                         <i></i>
                     <b class="m-reddot"></b></a>
                     <div class="nav-expand-list">
@@ -644,7 +644,7 @@
                     <img class="header-img" src="http://huyaimg.msstatic.com/avatar/1036/c9/81b3c8628d849cef72a0a91e26acbf_180_135.jpg?0" width="95" height="95">
                     <div class="personal-information">
                         <p class="nick">
-                            <span>吃嘛嘛香</span>
+                            <span><?php echo $_SESSION['user']->username;?></span>
                             <i class="user-level-icon user-level-icon-1"></i>
                         </p>
                         <div class="grow-level">

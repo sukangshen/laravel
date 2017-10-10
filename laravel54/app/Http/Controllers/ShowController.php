@@ -25,12 +25,14 @@ class ShowController extends Controller
 
 		$users = DB::select("select * from `user` where username='$username' and password='$password'");
 		if ($users) {
-			$_SESSION['user']=$data[0];
+
+			//存储用户的姓名
+			$_SESSION['user']=$users[0];
             
 
 			echo "<script>alert('登录成功,正在跳转个人中心');location.href='person'</script>";
-}else{
-			echo "<script>alert('登录失败');location.href='login'</script>";
+		}else{
+			echo "失败";
 		}
 	}
 
