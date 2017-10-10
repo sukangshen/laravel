@@ -289,7 +289,7 @@
                             </a>
                         </li>
                         <li>
-                            <a menu="subscribe" href="http://www.laravel.com/person/subscribe">
+                            <a menu="subscribe" href="http://www.laravel.com/sub/index">
                                 <span class="icon icon-subscribe"></span>
                                 <span class="title">
     订阅与历史
