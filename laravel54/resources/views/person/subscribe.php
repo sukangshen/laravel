@@ -136,7 +136,7 @@
                     </div>
                 </div>
                 <div class="hy-nav-right nav-user success-login" style="display: block;">
-                    <a class="nav-user-title" href="http://www.laravel.com/show/person" target="_blank">
+                    <a class="nav-user-title" href="http://i.huya.com/" target="_blank">
                         <img id="login-userAvatar" src="//huyaimg.msstatic.com/avatar/1084/70/3912c11c2649834d68a2c8c3a1113b_180_135.jpg" alt="头像">
                         <span id="login-username" title="刚好遇见你😘">刚好遇见你😘</span>
                         <i></i>
@@ -297,7 +297,7 @@
                             </a>
                         </li>
                         <li>
-                            <a menu="userlevel" href="http://www.laravel.com/show/person">
+                            <a menu="userlevel" href="http://i.huya.com/index.php?m=UserLevel">
                                 <span class="icon icon-userlevel"></span>
                                 <span class="title">
                                     等级成长
