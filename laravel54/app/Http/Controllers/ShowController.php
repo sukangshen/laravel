@@ -24,9 +24,10 @@ class ShowController extends Controller
 		$password = $_POST['password'];
 		$users = DB::select("select * from `user` where username='$username' and password='$password'");
 		if ($users) {
-			echo "成功登录";
+			//return redirect('show/index');
+			echo "<script>alert('登录成功');location.href='index'</script>";
 		}else{
-			echo "失败";
+			echo "<script>alert('登录失败');location.href='login'</script>";
 		}
 	}
 
