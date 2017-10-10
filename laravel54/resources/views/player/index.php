@@ -94,12 +94,11 @@
 
                 <span class="hy-nav-link duya-header-on"><a href="http://www.huya.com/" class="hy-nav-title clickstat" eid="click/navi/home" eid_desc="点击/导航/首页">首页</a></span>
 
-                <span class="hy-nav-link"><a href="http://www.laravel.com/person/index" class="hy-nav-title hiido_stat clickstat"  hiido_code="10004221" eid="click/navi/zhibo" eid_desc="点击/导航/直播">个人中心</a></span>
+                <span class="hy-nav-link"><a href="http://www.huya.com/l" class="hy-nav-title hiido_stat clickstat"  hiido_code="10004221" eid="click/navi/zhibo" eid_desc="点击/导航/直播">直播</a></span>
 
                 <div class="hy-nav-expand">
 
-                    <div class="hy-nav-title nav-main" id="nav-main"><a href="http://www.laravel.com/types/index">分类</a><i class="icon-arrow"></i></div>
-
+                    <div class="hy-nav-title nav-main" id="nav-main"><a href="http://www.huya.com/g">分类</a><i class="icon-arrow"></i></div>
 
                     <div class="nav-expand-list nav-expand-game">
 
@@ -280,7 +279,7 @@
                         <div class="un-login-btn">
 
                             <a href="http://47.94.108.20/Connect2.1/example/">qq第三方登录</a>
-                            <i>|</i><a href="http://www.laravel.com/show/login">本站登录</a>
+                            <i>|</i><a href="http://www.laravel.com/show/login">个人中心</a>
                             <a class="clickstat" id="nav-regiest" href="#" eid="click/navi/login" eid_desc="点击/导航/注册">注册</a>
                         </div>
 
@@ -496,95 +495,95 @@ var UDB_SDK_SWTICH = true;
 
         <div class="mod-index-main" id="js-main">
 
-    <div class="main-hd">
+	<div class="main-hd">
 
-        <div class="main-player">
+	    <div class="main-player">
 
-           <div id="index_player"></div>
+	       <div id="index_player"></div>
 
-        </div>
+	    </div>
 
-    </div>
+	</div>
 
-     <div class="main-bd">
+	 <div class="main-bd">
 
-        <ul class="item-nav clearfix">
+	    <ul class="item-nav clearfix">
 
-                                        <li recommendSite="1" class="new-clickstat" report='{"eid":"click/position","position":"index/jdt/1","game_id":"2336","ayyuid":"1602778506"}'>
+	        	        	            <li recommendSite="1" class="new-clickstat" report='{"eid":"click/position","position":"index/jdt/1","game_id":"2336","ayyuid":"1602778506"}'>
 
-                    <div class="item-pic">
+	                <div class="item-pic">
 
-                        <img src="images/home_recommend_live_web_1479181047.png" alt="虎牙直播" onerror="this.onerror='';this.src='images/default_focus.jpg'">
+	                    <img src="images/home_recommend_live_web_1479181047.png" alt="虎牙直播" onerror="this.onerror='';this.src='images/default_focus.jpg'">
 
-                        <div class="highlight"><i class="arrow"></i></div>
+	                    <div class="highlight"><i class="arrow"></i></div>
 
-                    </div>
+	                </div>
 
-                </li>
+	            </li>
 
-                            <li recommendSite="2" class="new-clickstat" report='{"eid":"click/position","position":"index/jdt/2","game_id":"2793","ayyuid":"1831451648"}'>
+	        	            <li recommendSite="2" class="new-clickstat" report='{"eid":"click/position","position":"index/jdt/2","game_id":"2793","ayyuid":"1831451648"}'>
 
-                    <div class="item-pic">
+	                <div class="item-pic">
 
-                        <img src="images/home_recommend_live_web_1505927144.jpg" alt="虎牙直播" onerror="this.onerror='';this.src='images/default_focus.jpg'">
+	                    <img src="images/home_recommend_live_web_1505927144.jpg" alt="虎牙直播" onerror="this.onerror='';this.src='images/default_focus.jpg'">
 
-                        <div class="highlight"><i class="arrow"></i></div>
+	                    <div class="highlight"><i class="arrow"></i></div>
 
-                    </div>
+	                </div>
 
-                </li>
+	            </li>
 
-                            <li recommendSite="3" class="new-clickstat" report='{"eid":"click/position","position":"index/jdt/3","game_id":"1","ayyuid":"1009333046"}'>
+	        	            <li recommendSite="3" class="new-clickstat" report='{"eid":"click/position","position":"index/jdt/3","game_id":"1","ayyuid":"1009333046"}'>
 
-                    <div class="item-pic">
+	                <div class="item-pic">
 
-                        <img src="images/home_recommend_live_web_1452480094.jpg" alt="虎牙直播" onerror="this.onerror='';this.src='images/default_focus.jpg'">
+	                    <img src="images/home_recommend_live_web_1452480094.jpg" alt="虎牙直播" onerror="this.onerror='';this.src='images/default_focus.jpg'">
 
-                        <div class="highlight"><i class="arrow"></i></div>
+	                    <div class="highlight"><i class="arrow"></i></div>
 
-                    </div>
+	                </div>
 
-                </li>
+	            </li>
 
-                            <li recommendSite="4" class="new-clickstat" report='{"eid":"click/position","position":"index/jdt/4","game_id":"1663","ayyuid":"1579880025"}'>
+	        	            <li recommendSite="4" class="new-clickstat" report='{"eid":"click/position","position":"index/jdt/4","game_id":"1663","ayyuid":"1579880025"}'>
 
-                    <div class="item-pic">
+	                <div class="item-pic">
 
-                        <img src="images/home_recommend_live_web_1495185222.jpg" alt="虎牙直播" onerror="this.onerror='';this.src='images/default_focus.jpg'">
+	                    <img src="images/home_recommend_live_web_1495185222.jpg" alt="虎牙直播" onerror="this.onerror='';this.src='images/default_focus.jpg'">
 
-                        <div class="highlight"><i class="arrow"></i></div>
+	                    <div class="highlight"><i class="arrow"></i></div>
 
-                    </div>
+	                </div>
 
-                </li>
+	            </li>
 
-                            <li recommendSite="5" class="new-clickstat" report='{"eid":"click/position","position":"index/jdt/5","game_id":"2633","ayyuid":"1839004863"}'>
+	        	            <li recommendSite="5" class="new-clickstat" report='{"eid":"click/position","position":"index/jdt/5","game_id":"2633","ayyuid":"1839004863"}'>
 
-                    <div class="item-pic">
+	                <div class="item-pic">
 
-                        <img src="images/home_recommend_live_web_1506048136.jpg" alt="虎牙直播" onerror="this.onerror='';this.src='images/default_focus.jpg'">
+	                    <img src="images/home_recommend_live_web_1506048136.jpg" alt="虎牙直播" onerror="this.onerror='';this.src='images/default_focus.jpg'">
 
-                        <div class="highlight"><i class="arrow"></i></div>
+	                    <div class="highlight"><i class="arrow"></i></div>
 
-                    </div>
+	                </div>
 
-                </li>
+	            </li>
 
-                            <li recommendSite="6" class="new-clickstat" report='{"eid":"click/position","position":"index/jdt/6","game_id":"2602","ayyuid":"7110934"}'>
+	        	            <li recommendSite="6" class="new-clickstat" report='{"eid":"click/position","position":"index/jdt/6","game_id":"2602","ayyuid":"7110934"}'>
 
-                    <div class="item-pic">
+	                <div class="item-pic">
 
-                        <img src="images/home_recommend_live_web_1506298817.jpg" alt="虎牙直播" onerror="this.onerror='';this.src='images/default_focus.jpg'">
+	                    <img src="images/home_recommend_live_web_1506298817.jpg" alt="虎牙直播" onerror="this.onerror='';this.src='images/default_focus.jpg'">
 
-                        <div class="highlight"><i class="arrow"></i></div>
+	                    <div class="highlight"><i class="arrow"></i></div>
 
-                    </div>
+	                </div>
 
-                </li>
+	            </li>
 
-                    </ul>
+	        	    </ul>
 
-    </div>
+	</div>
 
 </div>
 
@@ -666,7 +665,7 @@ var UDB_SDK_SWTICH = true;
 
                 <a href="http://www.huya.com/g/100023" target="_blank" class="new-clickstat" report='{"eid":"click/position","position":"index/remen/title1"}'>
 
-                    <i style="background-image: url('//livewebbs2.msstatic.com/huya_hot_rec_theme_logo_1488335027.png')"></i>
+                	<i style="background-image: url('//livewebbs2.msstatic.com/huya_hot_rec_theme_logo_1488335027.png')"></i>
 
                     网游竞技                </a>
 
@@ -774,7 +773,7 @@ var UDB_SDK_SWTICH = true;
 
                 <a href="http://www.huya.com/g/100002" target="_blank" class="new-clickstat" report='{"eid":"click/position","position":"index/remen/title2"}'>
 
-                    <i style="background-image: url('//livewebbs2.msstatic.com/huya_hot_rec_theme_logo_1488335054.png')"></i>
+                	<i style="background-image: url('//livewebbs2.msstatic.com/huya_hot_rec_theme_logo_1488335054.png')"></i>
 
                     单机热游                </a>
 
@@ -882,7 +881,7 @@ var UDB_SDK_SWTICH = true;
 
                 <a href="http://www.huya.com/g/100022" target="_blank" class="new-clickstat" report='{"eid":"click/position","position":"index/remen/title3"}'>
 
-                    <i style="background-image: url('//livewebbs2.msstatic.com/huya_hot_rec_theme_logo_1488335035.png')"></i>
+                	<i style="background-image: url('//livewebbs2.msstatic.com/huya_hot_rec_theme_logo_1488335035.png')"></i>
 
                     娱乐天地                </a>
 
@@ -990,7 +989,7 @@ var UDB_SDK_SWTICH = true;
 
                 <a href="http://www.huya.com/g/100004" target="_blank" class="new-clickstat" report='{"eid":"click/position","position":"index/remen/title4"}'>
 
-                    <i style="background-image: url('//livewebbs2.msstatic.com/huya_hot_rec_theme_logo_1488335045.png')"></i>
+                	<i style="background-image: url('//livewebbs2.msstatic.com/huya_hot_rec_theme_logo_1488335045.png')"></i>
 
                     手游休闲                </a>
 
@@ -1642,11 +1641,11 @@ var UDB_SDK_SWTICH = true;
 
                                                     <li class="game-list-item" gid="1">
 
-        <a target="_blank" href="http://www.huya.com/g/lol" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/1","game_id":"1"}'>
+	    <a target="_blank" href="http://www.huya.com/g/lol" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/1","game_id":"1"}'>
 
-        <img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/1-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="英雄联盟" title="英雄联盟">
+    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/1-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="英雄联盟" title="英雄联盟">
 
-        <h3 class="title">英雄联盟</h3>
+    	<h3 class="title">英雄联盟</h3>
 
     </a>
 
@@ -1654,11 +1653,11 @@ var UDB_SDK_SWTICH = true;
 
                                                         <li class="game-list-item" gid="2336">
 
-        <a target="_blank" href="http://www.huya.com/g/wzry" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/2","game_id":"2336"}'>
+	    <a target="_blank" href="http://www.huya.com/g/wzry" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/2","game_id":"2336"}'>
 
-        <img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/2336-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="王者荣耀" title="王者荣耀">
+    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/2336-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="王者荣耀" title="王者荣耀">
 
-        <h3 class="title">王者荣耀</h3>
+    	<h3 class="title">王者荣耀</h3>
 
     </a>
 
@@ -1666,11 +1665,11 @@ var UDB_SDK_SWTICH = true;
 
                                                         <li class="game-list-item" gid="2411">
 
-        <a target="_blank" href="http://www.huya.com/g/qiuqiu" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/3","game_id":"2411"}'>
+	    <a target="_blank" href="http://www.huya.com/g/qiuqiu" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/3","game_id":"2411"}'>
 
-        <img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/2411-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="球球大作战" title="球球大作战">
+    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/2411-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="球球大作战" title="球球大作战">
 
-        <h3 class="title">球球大作战</h3>
+    	<h3 class="title">球球大作战</h3>
 
     </a>
 
@@ -1678,11 +1677,11 @@ var UDB_SDK_SWTICH = true;
 
                                                         <li class="game-list-item" gid="100032">
 
-        <a target="_blank" href="http://www.huya.com/g/100032" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/4","game_id":"100032"}'>
+	    <a target="_blank" href="http://www.huya.com/g/100032" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/4","game_id":"100032"}'>
 
-        <img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/100032-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="主机游戏" title="主机游戏">
+    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/100032-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="主机游戏" title="主机游戏">
 
-        <h3 class="title">主机游戏</h3>
+    	<h3 class="title">主机游戏</h3>
 
     </a>
 
@@ -1690,11 +1689,11 @@ var UDB_SDK_SWTICH = true;
 
                                                         <li class="game-list-item" gid="1663">
 
-        <a target="_blank" href="http://www.huya.com/g/xingxiu" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/5","game_id":"1663"}'>
+	    <a target="_blank" href="http://www.huya.com/g/xingxiu" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/5","game_id":"1663"}'>
 
-        <img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/1663-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="星秀" title="星秀">
+    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/1663-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="星秀" title="星秀">
 
-        <h3 class="title">星秀</h3>
+    	<h3 class="title">星秀</h3>
 
     </a>
 
@@ -1702,11 +1701,11 @@ var UDB_SDK_SWTICH = true;
 
                                                         <li class="game-list-item" gid="100044">
 
-        <a target="_blank" href="http://www.huya.com/g/100044" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/6","game_id":"100044"}'>
+	    <a target="_blank" href="http://www.huya.com/g/100044" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/6","game_id":"100044"}'>
 
-        <img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/100044-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="吃喝玩乐" title="吃喝玩乐">
+    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/100044-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="吃喝玩乐" title="吃喝玩乐">
 
-        <h3 class="title">吃喝玩乐</h3>
+    	<h3 class="title">吃喝玩乐</h3>
 
     </a>
 
@@ -1714,11 +1713,11 @@ var UDB_SDK_SWTICH = true;
 
                                                         <li class="game-list-item" gid="100029">
 
-        <a target="_blank" href="http://www.huya.com/g/100029" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/7","game_id":"100029"}'>
+	    <a target="_blank" href="http://www.huya.com/g/100029" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/7","game_id":"100029"}'>
 
-        <img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/100029-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="热门手游" title="热门手游">
+    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/100029-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="热门手游" title="热门手游">
 
-        <h3 class="title">热门手游</h3>
+    	<h3 class="title">热门手游</h3>
 
     </a>
 
@@ -1726,11 +1725,11 @@ var UDB_SDK_SWTICH = true;
 
                                                         <li class="game-list-item" gid="393">
 
-        <a target="_blank" href="http://www.huya.com/g/hearthstone" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/8","game_id":"393"}'>
+	    <a target="_blank" href="http://www.huya.com/g/hearthstone" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/8","game_id":"393"}'>
 
-        <img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/393-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="炉石传说" title="炉石传说">
+    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/393-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="炉石传说" title="炉石传说">
 
-        <h3 class="title">炉石传说</h3>
+    	<h3 class="title">炉石传说</h3>
 
     </a>
 
@@ -1738,11 +1737,11 @@ var UDB_SDK_SWTICH = true;
 
                                                         <li class="game-list-item" gid="1732">
 
-        <a target="_blank" href="http://www.huya.com/g/MC" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/9","game_id":"1732"}'>
+	    <a target="_blank" href="http://www.huya.com/g/MC" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/9","game_id":"1732"}'>
 
-        <img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/1732-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="我的世界" title="我的世界">
+    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/1732-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="我的世界" title="我的世界">
 
-        <h3 class="title">我的世界</h3>
+    	<h3 class="title">我的世界</h3>
 
     </a>
 
@@ -1750,11 +1749,11 @@ var UDB_SDK_SWTICH = true;
 
                                                         <li class="game-list-item" gid="4">
 
-        <a target="_blank" href="http://www.huya.com/g/cf" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/10","game_id":"4"}'>
+	    <a target="_blank" href="http://www.huya.com/g/cf" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/10","game_id":"4"}'>
 
-        <img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/4-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="穿越火线" title="穿越火线">
+    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/4-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="穿越火线" title="穿越火线">
 
-        <h3 class="title">穿越火线</h3>
+    	<h3 class="title">穿越火线</h3>
 
     </a>
 
@@ -1762,11 +1761,11 @@ var UDB_SDK_SWTICH = true;
 
                                                         <li class="game-list-item" gid="2413">
 
-        <a target="_blank" href="http://www.huya.com/g/cfm" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/11","game_id":"2413"}'>
+	    <a target="_blank" href="http://www.huya.com/g/cfm" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/11","game_id":"2413"}'>
 
-        <img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/2413-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="CF枪战王者" title="CF枪战王者">
+    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/2413-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="CF枪战王者" title="CF枪战王者">
 
-        <h3 class="title">CF枪战王者</h3>
+    	<h3 class="title">CF枪战王者</h3>
 
     </a>
 
@@ -1774,11 +1773,11 @@ var UDB_SDK_SWTICH = true;
 
                                                         <li class="game-list-item" gid="2793">
 
-        <a target="_blank" href="http://www.huya.com/g/2793" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/12","game_id":"2793"}'>
+	    <a target="_blank" href="http://www.huya.com/g/2793" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/12","game_id":"2793"}'>
 
-        <img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/2793-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="绝地求生" title="绝地求生">
+    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/2793-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="绝地求生" title="绝地求生">
 
-        <h3 class="title">绝地求生</h3>
+    	<h3 class="title">绝地求生</h3>
 
     </a>
 
@@ -5182,51 +5181,51 @@ var UDB_SDK_SWTICH = true;
 
     <div class="mod-actlist__inner">
 
-        <div class="mod-actlist__main">
+		<div class="mod-actlist__main">
 
-            <div class="mod-actlist__hd clearfix">
+		    <div class="mod-actlist__hd clearfix">
 
-                <h3 class="title"><i></i>官方活动</h3>
+		        <h3 class="title"><i></i>官方活动</h3>
 
-                <a target="_blank" href="http://www.huya.com/e" class="more-list">更多<i class="index-more-icon"></i></a>
+		        <a target="_blank" href="http://www.huya.com/e" class="more-list">更多<i class="index-more-icon"></i></a>
 
-            </div>
+		    </div>
 
-            <div class="mod-actlist__bd">
+		    <div class="mod-actlist__bd">
 
-                <ul class="clearfix">
+		        <ul class="clearfix">
 
-                                                                                <li><a class="clickstat J_g_resource" data-pos="index/act/0" data-rsc="311" href="http://blog.huya.com/news/4564" target="_blank" title="KPL秋季赛" rel="nofollow" eid="click/home/event/event1" eid_desc="点击/首页/官方活动/官方活动1">
+		            		            		            		            <li><a class="clickstat J_g_resource" data-pos="index/act/0" data-rsc="311" href="http://blog.huya.com/news/4564" target="_blank" title="KPL秋季赛" rel="nofollow" eid="click/home/event/event1" eid_desc="点击/首页/官方活动/官方活动1">
 
-                        <img data-original="//huyaimg.msstatic.com/cdnimage/actprop/phpvADrAj1505963285.jpg" src="images/280x100.jpg" onerror="this.onerror=null; this.src='images/280x100.jpg';" alt="KPL秋季赛"/>
+		            	<img data-original="//huyaimg.msstatic.com/cdnimage/actprop/phpvADrAj1505963285.jpg" src="images/280x100.jpg" onerror="this.onerror=null; this.src='images/280x100.jpg';" alt="KPL秋季赛"/>
 
-                        </a></li>
+		            	</a></li>
 
-                                                            <li><a class="clickstat J_g_resource" data-pos="index/act/1" data-rsc="303" href="http://www.huya.com/bpl" target="_blank" title="球球大作战BPL秋季赛" rel="nofollow" eid="click/home/event/event2" eid_desc="点击/首页/官方活动/官方活动2">
+		            		            		            <li><a class="clickstat J_g_resource" data-pos="index/act/1" data-rsc="303" href="http://www.huya.com/bpl" target="_blank" title="球球大作战BPL秋季赛" rel="nofollow" eid="click/home/event/event2" eid_desc="点击/首页/官方活动/官方活动2">
 
-                        <img data-original="//huyaimg.msstatic.com/cdnimage/actprop/phpDuEZoI1504692295.jpg" src="images/280x100.jpg" onerror="this.onerror=null; this.src='images/280x100.jpg';" alt="球球大作战BPL秋季赛"/>
+		            	<img data-original="//huyaimg.msstatic.com/cdnimage/actprop/phpDuEZoI1504692295.jpg" src="images/280x100.jpg" onerror="this.onerror=null; this.src='images/280x100.jpg';" alt="球球大作战BPL秋季赛"/>
 
-                        </a></li>
+		            	</a></li>
 
-                                                            <li><a class="clickstat J_g_resource" data-pos="index/act/2" data-rsc="312" href="http://blog.huya.com/news/4556" target="_blank" title="S7总决赛" rel="nofollow" eid="click/home/event/event3" eid_desc="点击/首页/官方活动/官方活动3">
+		            		            		            <li><a class="clickstat J_g_resource" data-pos="index/act/2" data-rsc="312" href="http://blog.huya.com/news/4556" target="_blank" title="S7总决赛" rel="nofollow" eid="click/home/event/event3" eid_desc="点击/首页/官方活动/官方活动3">
 
-                        <img data-original="//huyaimg.msstatic.com/cdnimage/actprop/phpTrLKQl1505966307.jpg" src="images/280x100.jpg" onerror="this.onerror=null; this.src='images/280x100.jpg';" alt="S7总决赛"/>
+		            	<img data-original="//huyaimg.msstatic.com/cdnimage/actprop/phpTrLKQl1505966307.jpg" src="images/280x100.jpg" onerror="this.onerror=null; this.src='images/280x100.jpg';" alt="S7总决赛"/>
 
-                        </a></li>
+		            	</a></li>
 
-                                                            <li><a class="clickstat J_g_resource" data-pos="index/act/3" data-rsc="308" href="http://layer.huya.com/201709activity/index" target="_blank" title="虎牙有嘻哈" rel="nofollow" eid="click/home/event/event4" eid_desc="点击/首页/官方活动/官方活动4">
+		            		            		            <li><a class="clickstat J_g_resource" data-pos="index/act/3" data-rsc="308" href="http://layer.huya.com/201709activity/index" target="_blank" title="虎牙有嘻哈" rel="nofollow" eid="click/home/event/event4" eid_desc="点击/首页/官方活动/官方活动4">
 
-                        <img data-original="//huyaimg.msstatic.com/cdnimage/actprop/phpJ4dND71505443106.jpg" src="images/280x100.jpg" onerror="this.onerror=null; this.src='images/280x100.jpg';" alt="虎牙有嘻哈"/>
+		            	<img data-original="//huyaimg.msstatic.com/cdnimage/actprop/phpJ4dND71505443106.jpg" src="images/280x100.jpg" onerror="this.onerror=null; this.src='images/280x100.jpg';" alt="虎牙有嘻哈"/>
 
-                        </a></li>
+		            	</a></li>
 
-                                    </ul>
+		            		        </ul>
 
-            </div>
+		    </div>
 
-        </div>
+		</div>
 
-    </div>
+	</div>
 
 </div>
 
