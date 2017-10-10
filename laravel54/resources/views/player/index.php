@@ -280,7 +280,7 @@
                         <div class="un-login-btn">
 
                             <a href="http://47.94.108.20/Connect2.1/example/">qq第三方登录</a>
-                            <i>|</i><a href="http://127.0.0.1/ff/laravel/laravel54/public/show/login">本站登录</a>
+                            <i>|</i><a href="http://www.laravel.com/show/login">本站登录</a>
                             <a class="clickstat" id="nav-regiest" href="#" eid="click/navi/login" eid_desc="点击/导航/注册">注册</a>
                         </div>
 
