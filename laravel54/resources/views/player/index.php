@@ -94,11 +94,12 @@
 
                 <span class="hy-nav-link duya-header-on"><a href="http://www.huya.com/" class="hy-nav-title clickstat" eid="click/navi/home" eid_desc="点击/导航/首页">首页</a></span>
 
-                <span class="hy-nav-link"><a href="http://www.huya.com/l" class="hy-nav-title hiido_stat clickstat"  hiido_code="10004221" eid="click/navi/zhibo" eid_desc="点击/导航/直播">直播</a></span>
+                <span class="hy-nav-link"><a href="http://www.laravel.com/person/index" class="hy-nav-title hiido_stat clickstat"  hiido_code="10004221" eid="click/navi/zhibo" eid_desc="点击/导航/直播">个人中心</a></span>
 
                 <div class="hy-nav-expand">
 
-                    <div class="hy-nav-title nav-main" id="nav-main"><a href="http://www.huya.com/g">分类</a><i class="icon-arrow"></i></div>
+                    <div class="hy-nav-title nav-main" id="nav-main"><a href="http://www.laravel.com/types/index">分类</a><i class="icon-arrow"></i></div>
+
 
                     <div class="nav-expand-list nav-expand-game">
 
@@ -279,7 +280,7 @@
                         <div class="un-login-btn">
 
                             <a href="http://47.94.108.20/Connect2.1/example/">qq第三方登录</a>
-                            <i>|</i><a href="http://www.laravel.com/show/login">个人中心</a>
+                            <i>|</i><a href="http://127.0.0.1/ff/laravel/laravel54/public/show/login">本站登录</a>
                             <a class="clickstat" id="nav-regiest" href="#" eid="click/navi/login" eid_desc="点击/导航/注册">注册</a>
                         </div>
 
