@@ -22,11 +22,14 @@ class ShowController extends Controller
 	{
 		$username = $_POST['username'];
 		$password = $_POST['password'];
+
 		$users = DB::select("select * from `user` where username='$username' and password='$password'");
 		if ($users) {
-			//return redirect('show/index');
-			echo "<script>alert('登录成功');location.href='index'</script>";
-		}else{
+			$_SESSION['user']=$data[0];
+            
+
+			echo "<script>alert('登录成功,正在跳转个人中心');location.href='person'</script>";
+}else{
 			echo "<script>alert('登录失败');location.href='login'</script>";
 		}
 	}
@@ -68,5 +71,14 @@ class ShowController extends Controller
         // print_r($arr);die;
         echo "<script>alert('注册成功,去登录吧');location.href='login'</script>";
 	}
+
+		//个人中心的展示
+		public function person()
+	{	
+		return view('person/index');
+	}
+
+
+
 
 }
