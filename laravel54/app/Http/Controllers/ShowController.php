@@ -7,7 +7,11 @@ class ShowController extends Controller
 	//直播的首页
 	public function index()
 	{
-	return view('player/index');
+
+	$users = DB::select('select * from live_new');
+	$data = DB::select('select * from zhubo');
+	 return view('player/index',['users'=>$users,'data'=>$data]);	
+	
 	}
 
 	//登录的展示
@@ -80,7 +84,7 @@ class ShowController extends Controller
 		return view('person/index');
 	}
 
-
+	
 
 
 }

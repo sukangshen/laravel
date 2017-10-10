@@ -25,6 +25,11 @@ route::any('show/login_do','ShowController@login_do');
 route::any('show/region','ShowController@region');
 route::any('show/region_do','ShowController@region_do');
 route::any('show/person','ShowController@person');
+route::any('new/show','NewController@show');
+route::any('new/add','NewController@add');
+route::any('new/add_do','NewController@add_do');
+route::any('show/add_select','ShowController@add_select');
+route::any('show/select','ShowController@select');
 
 //梦雨路由
 route::any('types/index','TypesController@index');
