@@ -21,5 +21,10 @@ route::any('index/add_do','IndexController@add_do');
 route::any('index/add_del','IndexController@add_del');
 route::any('index/add_update','IndexController@add_update');
 route::any('index/add_upd','IndexController@add_upd');
+
+
 route::any('show/index','ShowController@index');
 route::any('show/login','ShowController@login');
+
+
+route::any('types/index','TypesController@index');
