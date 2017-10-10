@@ -10,7 +10,7 @@ class IndexController extends Controller
 	$users = DB::select('select * from user');
 	return view('index/show',['users'=>$users]);
 	}
-
+!
 	//增加
 	public function add()
 	{

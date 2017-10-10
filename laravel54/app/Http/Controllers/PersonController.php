@@ -11,10 +11,10 @@ class PersonController extends Controller
 	}
 
 	//直播的订阅历史
-	public function subscribe()
-	{	
-		return view('person/subscribe');
-	}
+//	public function subscribe()
+//	{
+//		return view('person/subscribe');
+//	}
 
 	//直播的认证
 	public function profileauth()

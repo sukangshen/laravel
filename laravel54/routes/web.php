@@ -42,3 +42,8 @@ route::any('person/index','PersonController@index');
 route::any('person/subscribe','PersonController@subscribe');
 route::any('person/profileauth','PersonController@profileauth');
 
+//国威的路由
+//订阅于历史
+route::any('sub/index','SubscribeController@sub');
+route::any('sub/list','SubscribeController@sublist');
+
