@@ -11,14 +11,20 @@ class PerController extends Controller
 	{	
 		return view('per/profileauth');
 	}
+	public function index()
+	{	
+		return view('per/index');
+	}
+
 
 	public function add_do(){
-		$username = $_POST['username'];
-	    $card = $_POST['card'];
+		// print_r($_GET);die;
+		$username = $_GET['username'];
+	    $card = $_GET['card'];
 		$re= DB::table('user')->insert(['username'=>$username,'card'=>$card]);
 		if ($re) {
 			echo "成功";
-			return redirect('person/index')->send();
+			return redirect('per/index')->send();
 		}else{
 			echo "失败";
 		}
