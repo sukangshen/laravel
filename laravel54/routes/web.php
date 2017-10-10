@@ -10,67 +10,34 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-$uri=$_SERVER['REQUEST_URI'];
-$uri=explode('/', $uri);
-if(isset($uri[2]))
-{
-  Route::any('/'.$uri[1].'/'.$uri[2], ucfirst($uri[1]).'Controller@'.$uri[2]);
-}else
-{
-  Route::any('/'.$uri[1], ucfirst($uri[1]).'Controller@index');
-}
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// 路由的阿江
 
-Route::get('/', function () {
-    return view('welcome');
-});
-// 路由的配置
 route::get('index/index','IndexController@index');
 route::get('index/add','IndexController@add');
 route::any('index/add_do','IndexController@add_do');
 route::any('index/add_del','IndexController@add_del');
 route::any('index/add_update','IndexController@add_update');
 route::any('index/add_upd','IndexController@add_upd');
-
-
 route::any('show/index','ShowController@index');
 route::any('show/login','ShowController@login');
+route::any('show/login_do','ShowController@login_do');
+route::any('show/region','ShowController@region');
+route::any('show/region_do','ShowController@region_do');
 
-
-<<<<<<< HEAD
+//梦雨路由
 route::any('types/index','TypesController@index');
 route::any('types/del','TypesController@del');
 route::any('types/sets','TypesController@sets');
 route::any('types/add_upd','TypesController@add_upd');
 route::any('types/add','TypesController@add');
-=======
+
 //直播分类
 route::any('types/index','TypesController@index');
 
 
-//个人中心
+//个人中心 苏
 route::any('person/index','PersonController@index');
 route::any('person/subscribe','PersonController@subscribe');
 route::any('person/profileauth','PersonController@profileauth');
-//配置路由规则
-// $ROUTES=isset($_GET['r'])?$_GET['r']:false;
-// if($ROUTES)
-// {
-//     $ROUTES=explode('/',$ROUTES);
-//     Route::match(['get','post'],'/',ucfirst($ROUTES[0]).'Controller@'.$ROUTES[1]);
-// }
-// else
-// {
-//     $uri=$_SERVER['REQUEST_URI'];
-//     $uri=explode('/', $uri);
-//     if(isset($uri[2])){
-//         Route::any('/'.$uri[1].'/'.$uri[2], ucfirst($uri[1]).'Controller@'.$uri[2]);
-//     }else{
-//         //Route::any('/'.$uri[2], ucfirst($uri[2]).'Controller@index');
-//         Route::any('/', 'LoginController@homepage');
-//     }
-// }
->>>>>>> 717a36d7ad50b2f11731841ccfe586f505986ef5
+
