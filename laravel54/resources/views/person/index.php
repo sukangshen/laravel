@@ -21,7 +21,7 @@
                 <a href="http://www.huya.com/" class="clickstat" eid="click/navi/logo" eid_desc="点击/导航/logo"><img src="//a.msstatic.com/huya/main/img/logo.png" alt="虎牙直播" width="120" height="36"></a>
             </h1>
             <div class="duya-header-nav">
-                <span class="hy-nav-link"><a href="http://www.huya.com/" class="hy-nav-title clickstat" eid="click/navi/home" eid_desc="点击/导航/首页">首页</a></span>
+                <span class="hy-nav-link"><a href="http://www.laravel.com/show/index" class="hy-nav-title clickstat" eid="click/navi/home" eid_desc="点击/导航/首页">首页</a></span>
                 <span class="hy-nav-link"><a href="http://www.huya.com/l" class="hy-nav-title hiido_stat clickstat" hiido_code="10004221" eid="click/navi/zhibo" eid_desc="点击/导航/直播">直播</a></span>
                 <div class="hy-nav-expand">
                     <div class="hy-nav-title nav-main" id="nav-main"><a href="http://www.huya.com/g">分类</a><i class="icon-arrow"></i></div>
@@ -123,7 +123,7 @@
                 <div class="hy-nav-right nav-user success-login" style="display: block;">
                     <a class="nav-user-title" href="http://i.huya.com/" target="_blank">
                         <img id="login-userAvatar" src="//huyaimg.msstatic.com/avatar/1036/c9/81b3c8628d849cef72a0a91e26acbf_180_135.jpg?0" alt="头像">
-                        <span id="login-username" title="吃嘛嘛香">吃嘛嘛香</span>
+                        <span id="login-username" title="吃嘛嘛香"><?php echo $_SESSION['user']->username;?></span>
                         <i></i>
                     <b class="m-reddot"></b></a>
                     <div class="nav-expand-list">
@@ -644,7 +644,7 @@
                     <img class="header-img" src="http://huyaimg.msstatic.com/avatar/1036/c9/81b3c8628d849cef72a0a91e26acbf_180_135.jpg?0" width="95" height="95">
                     <div class="personal-information">
                         <p class="nick">
-                            <span>吃嘛嘛香</span>
+                            <span><?php echo $_SESSION['user']->username;?></span>
                             <i class="user-level-icon user-level-icon-1"></i>
                         </p>
                         <div class="grow-level">
