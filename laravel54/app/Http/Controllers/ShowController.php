@@ -27,7 +27,7 @@ class ShowController extends Controller
 		if ($users) {
 
 			//存储用户的姓名
-			$_SESSION['user']=$data[0];
+			$_SESSION['user']=$users[0];
             
 
 			echo "<script>alert('登录成功,正在跳转个人中心');location.href='person'</script>";
