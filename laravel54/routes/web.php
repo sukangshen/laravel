@@ -30,6 +30,8 @@ route::any('new/add','NewController@add');
 route::any('new/add_do','NewController@add_do');
 route::any('show/add_select','ShowController@add_select');
 route::any('show/select','ShowController@select');
+route::any('ceshi/index','CeshiController@index');
+route::any('ceshi/true','CeshiController@true');
 
 //梦雨路由
 route::any('types/index','TypesController@index');

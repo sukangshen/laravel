@@ -1599,6 +1599,8 @@ var UDB_SDK_SWTICH = true;
 
             <h2 class="title"><span class="hy-column-icon hy-column-game"></span><a href="http://www.huya.com/g" target="_blank">热门分类</a></h2>
 
+
+
             <a class="more-info" href="http://www.huya.com/g" target="_blank">更多<i class="index-more-icon"></i></a>
 
             <span class="box-hd-tip">当前共有<strong>264</strong>款游戏直播</span>
@@ -1611,6 +1613,10 @@ var UDB_SDK_SWTICH = true;
 
             <ul class="game-list clearfix">
 
+
+                        // 分类的照片
+
+                        <?php foreach ($users as $key => $val): ?>
                                                     <li class="game-list-item" gid="1">
 
 	    <a target="_blank" href="http://www.huya.com/g/lol" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/1","game_id":"1"}'>
@@ -1623,137 +1629,7 @@ var UDB_SDK_SWTICH = true;
 
 </li>
 
-                                                        <li class="game-list-item" gid="2336">
 
-	    <a target="_blank" href="http://www.huya.com/g/wzry" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/2","game_id":"2336"}'>
-
-    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/2336-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="王者荣耀" title="王者荣耀">
-
-    	<h3 class="title">王者荣耀</h3>
-
-    </a>
-
-</li>
-
-                                                        <li class="game-list-item" gid="2411">
-
-	    <a target="_blank" href="http://www.huya.com/g/qiuqiu" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/3","game_id":"2411"}'>
-
-    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/2411-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="球球大作战" title="球球大作战">
-
-    	<h3 class="title">球球大作战</h3>
-
-    </a>
-
-</li>
-
-                                                        <li class="game-list-item" gid="100032">
-
-	    <a target="_blank" href="http://www.huya.com/g/100032" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/4","game_id":"100032"}'>
-
-    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/100032-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="主机游戏" title="主机游戏">
-
-    	<h3 class="title">主机游戏</h3>
-
-    </a>
-
-</li>
-
-                                                        <li class="game-list-item" gid="1663">
-
-	    <a target="_blank" href="http://www.huya.com/g/xingxiu" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/5","game_id":"1663"}'>
-
-    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/1663-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="星秀" title="星秀">
-
-    	<h3 class="title">星秀</h3>
-
-    </a>
-
-</li>
-
-                                                        <li class="game-list-item" gid="100044">
-
-	    <a target="_blank" href="http://www.huya.com/g/100044" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/6","game_id":"100044"}'>
-
-    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/100044-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="吃喝玩乐" title="吃喝玩乐">
-
-    	<h3 class="title">吃喝玩乐</h3>
-
-    </a>
-
-</li>
-
-                                                        <li class="game-list-item" gid="100029">
-
-	    <a target="_blank" href="http://www.huya.com/g/100029" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/7","game_id":"100029"}'>
-
-    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/100029-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="热门手游" title="热门手游">
-
-    	<h3 class="title">热门手游</h3>
-
-    </a>
-
-</li>
-
-                                                        <li class="game-list-item" gid="393">
-
-	    <a target="_blank" href="http://www.huya.com/g/hearthstone" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/8","game_id":"393"}'>
-
-    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/393-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="炉石传说" title="炉石传说">
-
-    	<h3 class="title">炉石传说</h3>
-
-    </a>
-
-</li>
-
-                                                        <li class="game-list-item" gid="1732">
-
-	    <a target="_blank" href="http://www.huya.com/g/MC" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/9","game_id":"1732"}'>
-
-    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/1732-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="我的世界" title="我的世界">
-
-    	<h3 class="title">我的世界</h3>
-
-    </a>
-
-</li>
-
-                                                        <li class="game-list-item" gid="4">
-
-	    <a target="_blank" href="http://www.huya.com/g/cf" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/10","game_id":"4"}'>
-
-    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/4-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="穿越火线" title="穿越火线">
-
-    	<h3 class="title">穿越火线</h3>
-
-    </a>
-
-</li>
-
-                                                        <li class="game-list-item" gid="2413">
-
-	    <a target="_blank" href="http://www.huya.com/g/cfm" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/11","game_id":"2413"}'>
-
-    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/2413-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="CF枪战王者" title="CF枪战王者">
-
-    	<h3 class="title">CF枪战王者</h3>
-
-    </a>
-
-</li>
-
-                                                        <li class="game-list-item" gid="2793">
-
-	    <a target="_blank" href="http://www.huya.com/g/2793" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/12","game_id":"2793"}'>
-
-    	<img class="pic-img" data-original="//huyaimg.msstatic.com/cdnimage/game/2793-S.jpg?t=1506308400" src="images/240x360.jpg" onerror="this.onerror=null; this.src='images/240x360.jpg';" alt="绝地求生" title="绝地求生">
-
-    	<h3 class="title">绝地求生</h3>
-
-    </a>
-
-</li>
 
                                 </ul>
 

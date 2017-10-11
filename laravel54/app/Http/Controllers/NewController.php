@@ -9,8 +9,6 @@ public function show()
 	{
 		$users = DB::select('select * from live_new');
 		$data = DB::select('select * from zhubo');
-        
-	   
 	    return view('player/index',['users'=>$users,'data'=>$data]);
 	}
 
