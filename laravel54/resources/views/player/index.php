@@ -1613,7 +1613,7 @@ var UDB_SDK_SWTICH = true;
 
             <ul class="game-list clearfix">
 
-
+sdas
                         // 分类的照片
 
                         <?php foreach ($users as $key => $val): ?>
@@ -1628,6 +1628,8 @@ var UDB_SDK_SWTICH = true;
     </a>
 
 </li>
+                
+                <?php endforeach ?>    
 
 
 
@@ -4696,4 +4698,5 @@ var _hmt = _hmt || [];
 </body>
 
 </html>
+
 
