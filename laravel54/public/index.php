@@ -1,7 +1,7 @@
 <?php
 session_start();
 /**
- * Laravel - A PHP Framework For Web  vvArtisans
+ * Laravel - A PHP Framework For Web  v1Artisans
  *
  * @package  Laravel
  * @author   Taylor Otwell <taylor@laravel.com>
